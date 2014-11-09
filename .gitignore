@@ -1,3 +1,5 @@
 /vendor
 vendor/
-#ignores all vendor files and sub-dirs
+#ignores vendor dir, files and sub-dirs
+assets/twbs_3.2.0
+#ignores twbs files in assets folder
