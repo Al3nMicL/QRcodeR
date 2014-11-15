@@ -60,7 +60,7 @@
         <div class="col-sm-4">
           <h2 class="lead">Scan code</h2>
           
-          <img src="incl/qrcode.php" alt="generated code" width="240px" height="240px"/>
+          <img src="<?php echo 'incl/qrcode.php?'.'input='.$_GET['input'] ?>" alt="generated code" width="240px" height="240px"/>
           <p><a class="btn btn-xs btn-info" href="#" role="button">View details »</a></p>
         </div>
         <div class="col-sm-8">
@@ -73,8 +73,8 @@
 		  		<form method="GET" action="<?php echo $_SERVER['PHP_SELF']?>">
 		  			<fieldset>
 		  			<small>type text or url below, then click generate</small>
-		  			<label for="encode_string">
-		  				<textarea style="resize: none" name="encode_string" maxlength=140 rows="3" cols="40" required></textarea>
+		  			<label for="input">
+		  				<textarea style="resize: none" name="input" maxlength=140 rows="3" cols="40" required></textarea>
 		  			</label>
 		  			<br />
 		  			
