@@ -60,7 +60,7 @@
         <div class="col-sm-4">
           <h2 class="lead">Scan code</h2>
           
-          <img src="asset/img/wikipedia_mobi.svg.png" alt="generated code" width="240px" height="240px"/>
+          <img src="incl/qrcode.php" alt="generated code" width="240px" height="240px"/>
           <p><a class="btn btn-xs btn-info" href="#" role="button">View details »</a></p>
         </div>
         <div class="col-sm-8">
