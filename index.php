@@ -6,18 +6,7 @@
       <div class="row">
         <div class="col-sm-4">
           <h2 class="lead">Scan code</h2>
-		<?php
-			//determine defaults before rendering		 	
-		 	function get_src(){
-		 		$val = isset($_GET['input']) ? true : false;
-				if($val){
-					return 'incl/qrcode.php?'.'input='.$_GET['input'];
-				} else {
-					return "asset/img/default_qr.png";
-				}
-			}
-			$qr_render = get_src();
-		?>
+			<?php include("incl/controller.php"); ?>
           <img src="<?php echo $qr_render; ?>" alt="generated code" width="240px" height="240px"/>
           <p><a class="btn btn-xs btn-info" href="#" role="button">View details »</a></p>
         </div>
