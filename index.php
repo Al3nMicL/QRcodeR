@@ -8,8 +8,20 @@
           <h2 class="lead">Scan code</h2>
 			<?php include("incl/controller.php"); ?>
           <img src="<?php echo $qr_render; ?>" alt="generated code" width="240px" height="240px"/>
-          <p><a class="btn btn-xs btn-info" href="#" role="button">View details »</a></p>
-        </div>
+          <p id="btn_details"><a class="btn btn-xs btn-info" href="#" role="button">View details »</a></p>
+          <div id="details_panel" class="panel panel-info" style="display: none">
+          	<div class="panel-heading">
+          		<h4 class="panel-title">Image details
+          		<span id="btn_hide_details" class="pull-right">
+          			<a class="btn btn-xs btn-default" href="#" role="button">&laquo; Hide details</a>
+          		</span>
+          		</h4>
+          	</div>
+          	<div class="panel-body">
+				<?php echo $show_details; ?>
+          	</div>
+          </div>
+        </div><!--End col-sm-4 -->
         <div class="col-sm-8">
           <br />
           <div id="input" class="panel panel-default col-md-8">

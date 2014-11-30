@@ -6,3 +6,5 @@ twbs_3.2.0/
 /twbs_tron_template
 twbs_tron_template/
 #ignores all twbs files in assets folder
+asset/js/vendor/
+#ignores all vendor specific js libraries

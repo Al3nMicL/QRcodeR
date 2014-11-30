@@ -7,20 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="@Al3nMicL">
     <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
-
+    	
     <title>QRcode generator</title>
-
+	<!-- jQuery javascript libraries - local -->
+	<script src="asset/js/vendor/jquery-1.11.0.min.js" type="text/javascript"></script>	
+	
     <!-- Bootstrap core CSS -->
     <link href="asset/twbs_tron_template/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="asset/twbs_tron_template/jumbotron.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
+	
+	<!-- Page specific javascript files -->
+	<script src="asset/js/interactions.js" type="text/javascript"></script>
+    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
