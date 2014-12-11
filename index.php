@@ -33,7 +33,7 @@
 		  			<fieldset>
 		  			<small>type text or url below, then click generate</small>
 		  			<label for="input">
-		  				<textarea style="resize: none" name="input" maxlength=140 rows="3" cols="40" required></textarea>
+		  				<textarea style="resize: none; width: 99%" name="input" maxlength=140 rows="3" cols="40" required></textarea>
 		  			</label>
 		  			<br />
 		  			
@@ -46,7 +46,7 @@
 		  		</form>
 		  	 </div> 	
           </div id="input">
-        </div class="col-sm-8">
+        </div class="col-sm-8"><!--End col-sm-8 -->
         
       </div>
 
